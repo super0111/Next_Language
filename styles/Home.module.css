@@ -1,0 +1,35 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 65%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 5px 5px 5px;
+}
+
+.navbar span {
+  margin-right: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.navbar .selected {
+  background: blue;
+  color: white;
+  border-radius: 5px;
+}
